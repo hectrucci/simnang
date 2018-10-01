@@ -1,0 +1,16 @@
+.sprite-drawer {
+  text-align: center;
+  min-width: 660px;
+}
+
+.awesome-sprite-container,
+.sprite-inputs,
+.sprite-controls {
+  margin-bottom: 20px;
+}
+
+.sprite-inputs {
+  textarea {
+    resize: none;
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simnang Sprites</title>
+    <% for (var i = 0; i < htmlWebpackPlugin.files.css.length; i++) { %>
+        <link rel="stylesheet" type="text/css" href="<%= htmlWebpackPlugin.files.css[i] %>">
+    <% } %>
+</head>
+<body>
+    <home></home>
+</body>
+<% for (var j = 0; j < htmlWebpackPlugin.files.js.length; j++) { %>
+    <script src="<%= htmlWebpackPlugin.files.js[j] %>"></script>
+<% } %>
+</html>

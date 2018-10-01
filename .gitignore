@@ -1,0 +1,26 @@
+# package managers #
+####################
+node_modules/
+npm-debug.log
+
+# generated files #
+######################
+coverage/
+build/
+dist/
+test_results
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.tmp
+*.iml
+.idea/
+.git/
+
+generated_templates/
+generated_styles/
+app/index.html

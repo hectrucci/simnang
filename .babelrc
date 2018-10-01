@@ -1,0 +1,13 @@
+{
+    "sourceMaps": true,
+    "presets": [
+        "es2015",
+        "es2017"
+    ],
+    "plugins": [
+        "syntax-trailing-function-commas",
+        "transform-object-rest-spread",
+        "transform-decorators-legacy",
+        "transform-class-properties"
+    ]
+}
