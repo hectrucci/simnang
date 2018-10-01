@@ -147,8 +147,8 @@ export default {
         new CleanPlugin([path.resolve(__dirname, 'build')]),
         new webpack.IgnorePlugin(/caniuse-lite\/data\/regions/),
         new webpack.ProvidePlugin({
-            $: "jquery",
-            jQuery: "jQuery"
+            $: 'jquery',
+            jQuery: 'jquery'
         }),
         new HtmlWebpackPlugin({
             inject: false,
