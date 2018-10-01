@@ -1,4 +1,4 @@
-# Simnang Exercise
+# Simnang Challenge
 
 
 ## Usage
