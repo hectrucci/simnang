@@ -23,6 +23,7 @@ export default {
             styles: path.resolve(__dirname, 'app', 'styles'),
             test_helpers: path.resolve(__dirname, 'lib', 'test_helpers.js'),
         },
+        modules: ['node_modules']
     },
     module: {
         rules: [
