@@ -15,7 +15,8 @@
     "test": "karma start karma.conf.js",
     "lint": "eslint app",
     "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "postinstall": "env NODE_ENV=production webpack -p"
   },
   "author": "Hector Antunez",
   "license": "ISC",
